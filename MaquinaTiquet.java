@@ -25,9 +25,9 @@ public class MaquinaTiquet
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public MaquinaTiquet(int coste)
+    public MaquinaTiquet()
     {
-        precio = coste;
+        precio = 800;
         balance = 0;
         total = 0;
     }
@@ -91,5 +91,10 @@ public class MaquinaTiquet
     public void mensaje()
     {
         System.out.println("Por favor, inserte la cantidad correcta de dinero");
+    }
+     
+    public void mostrarPrecio()
+    {
+        System.out.println("El precio del tiquet es de" + precio + "euros");
     }
 }
