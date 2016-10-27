@@ -104,4 +104,9 @@ public class MaquinaTiquet
     {
         System.out.println("El precio del tiquet es de" + precio + "euros");
     }
+    
+    public void vaciarMaquina()
+    {
+        total = 0;
+    }
 }
