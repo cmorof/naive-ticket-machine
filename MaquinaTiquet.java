@@ -88,13 +88,8 @@ public class MaquinaTiquet
         precio = coste;
     }
     
-    public void prompt()
+    public void rapido()
     {
-        System.out.println("Please, insert the correct amount of money");
-    }
-    
-    public void mostrarPrecio()
-    {
-        System.out.println("The price of a ticket is" + precio + "euros");
+        System.out.println("Por favor, inserte la cantidad correcta de dinero");
     }
 }
